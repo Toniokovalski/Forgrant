@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boosta</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&amp;subset=cyrillic" rel="stylesheet">
+    <link href="app/style.css" rel="stylesheet">
+    <script src="app/content.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a class="header__btn" href="#block-1">Личная информация</a>
+                <a class="header__btn" href="#block-2">Опыт</a>
+                <a class="header__btn" href="#block-3">О себе</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="main">
+    <div class="container container-wrapper">
+        <div class="row">
+            <div class="col">
+                <H1 class="h1">Анкета</H1>
+
+                <div id="block-1" class="block">
+                    <div class="block__title">Личная информация</div>
+
+                    <div class="block__form">
+                        <form>
+                            <div class="block__form_group">
+                                <input type="text" placeholder="ФИО" id="input-1">
+                                <label for="input-1">ФИО</label>
+                            </div>
+
+                            <div class="block__form_custom-select">
+                                <select>
+                                    <option value="0">Год рождения</option>
+                                    <option value="1">1998</option>
+                                    <option value="2">1997</option>
+                                    <option value="3">1996</option>
+                                    <option value="4">1995</option>
+                                    <option value="5">1994</option>
+                                    <option value="6">1993</option>
+                                    <option value="7">1992</option>
+                                    <option value="8">1991</option>
+                                    <option value="9">1990</option>
+                                    <option value="10">1989</option>
+                                    <option value="11">1988</option>
+                                    <option value="12">1987</option>
+                                    <option value="13">1986</option>
+                                    <option value="14">1985</option>
+                                    <option value="15">1984</option>
+                                    <option value="16">1983</option>
+                                    <option value="17">1982</option>
+                                    <option value="18">1981</option>
+                                    <option value="19">1980</option>
+                                    <option value="20">1979</option>
+                                </select>
+                            </div>
+
+                            <div class="block__form_group">
+                                <input type="text" placeholder="Место проживания" id="input-2">
+                                <label for="input-2">Место проживания</label>
+                            </div>
+
+                            <div class="block__form_group">
+                                <input type="text" placeholder="Skype" id="input-3">
+                                <label for="input-3">Skype</label>
+                            </div>
+
+                            <div class="block__form_group">
+                                <input type="text" placeholder="E-Mail"  id="input-4">
+                                <label for="input-4">E-Mail</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div id="block-2" class="block">
+                    <div class="block__title">Расскажите о своем опыте</div>
+
+                    <div class="block__checkboxes">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                                <label class="block__checkboxes_item">БЭМ/OOCSS
+                                    <input type="checkbox" checked="checked">
+                                    <span class="block__checkboxes_checkmark"></span>
+                                </label>
+                                <label class="block__checkboxes_item">Stylus/LESS/SASS
+                                    <input type="checkbox">
+                                    <span class="block__checkboxes_checkmark"></span>
+                                </label>
+                                <label class="block__checkboxes_item">Работаю с SVG
+                                    <input type="checkbox">
+                                    <span class="block__checkboxes_checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <label class="block__checkboxes_item">Верстаю семантично
+                                    <input type="checkbox" checked="checked">
+                                    <span class="block__checkboxes_checkmark"></span>
+                                </label>
+                                <label class="block__checkboxes_item">ES2015/ES2016
+                                    <input type="checkbox">
+                                    <span class="block__checkboxes_checkmark"></span>
+                                </label>
+                                <label class="block__checkboxes_item">Gulp/GRUNT
+                                    <input type="checkbox">
+                                    <span class="block__checkboxes_checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <label class="block__checkboxes_item">Webpack
+                                    <input type="checkbox" checked="checked">
+                                    <span class="block__checkboxes_checkmark"></span>
+                                </label>
+                                <label class="block__checkboxes_item">jQuery
+                                    <input type="checkbox">
+                                    <span class="block__checkboxes_checkmark"></span>
+                                </label>
+                                <label class="block__checkboxes_item">Ипользую Git
+                                    <input type="checkbox">
+                                    <span class="block__checkboxes_checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="block-3" class="block">
+                    <div class="block__title">Расскажите о себе</div>
+
+                    <div class="block__title-description">
+                        Напишите несколько предложений, чем привлекла наша вакансия
+                        и что вы ожидаете от работы у нас.
+                    </div>
+
+                    <div class="block__textarea">
+                        <textarea placeholder="Понравилась тем что..."></textarea>
+                    </div>
+
+                    <div class="block__btn">
+                        <button>Готово</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
